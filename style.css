@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: Roboto, 'Courier New', serif;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+/* header section */
+.header,.hero, .footer{
+    background-color: #1f2937;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+}
+a{
+    text-decoration: none;
+}
+
+/* hero section */
+
+.hero{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    gap:120px;
+}
+
+.hero-title{
+    width:350px;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:900;
+}
+a,.hero-text,.action-text{
+    text-wrap: wrap;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.hero-button{
+    background-color: #3882f6;
+    border-radius:6px;
+    border-style: none;
+    padding:8px 24px;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+/* information gallery section */
+.info-gallery{
+    padding:40px;
+
+}
+.info-title{
+    padding:10px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.info-container{
+    padding:40px;
+    display: flex;
+    justify-content: space-around;
+}
+.snoopy{
+    width: 200px;
+    height: 200px;
+    border-radius:12px;
+    border:5px solid #3882f6;
+}
+
+/* quote section */
+.quote{
+    padding:100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote-text{
+    width:1300px;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    color: #1f2937;
+    padding-bottom: 10px;
+}
+.quote-author{
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* call to action section */
+.action{
+    padding:100px 250px;
+}
+.action-window{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-button{
+    background-color: #3882f6;
+    border-radius:6px;
+    border-style: none;
+    border:2px solid #f9faf8;
+    padding: 8px 24px;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight:bold;
+
+}
+.action-text{
+    gap: 10px;
+}
+.action-header{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+/* footer section */
+.footer{
+    color: #f9faf8;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
